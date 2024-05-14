@@ -29,4 +29,7 @@ export default makeStyles((theme) => ({
   toolbar: {
     display: 'flex', justifyContent: 'space-between',
   },
+  chatbot: {
+    color: 'white', textDecoration: 'none', padding: '0.3rem 1rem', fontSize: '1.2rem',
+  }
 }));

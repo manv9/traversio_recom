@@ -1,4 +1,4 @@
-import React, {useState, useRef, useEffect } from 'react';
+import { useState } from 'react';
 import { Autocomplete } from '@react-google-maps/api';
 import { AppBar, Toolbar, Typography, InputBase, Box } from '@material-ui/core';
 import SearchIcon from '@material-ui/icons/Search';
@@ -26,6 +26,7 @@ const Header = ({setCoordinates}) => {
                     Traversio
                 </Typography>
                 <Box display="flex">
+                    <a variant="h6" className={classes.chatbot} href="https://chatbotclone.netlify.app/">chatBot</a>
                     <Typography variant="h6" className={classes.title}>
                         Explore New Places
                     </Typography>
